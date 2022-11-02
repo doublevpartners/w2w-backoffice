@@ -4,8 +4,12 @@
   "newProjectRoot": "projects",
   "cli": {
     "packageManager": "yarn",
+    "cache": {
+      "enabled": true,
+      "environment": "all",
+      "path": "tmp/cache/.angular"
+    },
     "schematicCollections": [
-      "@angular-eslint/schematics",
       "@angular-eslint/schematics",
       "@ngrx/schematics"
     ]
